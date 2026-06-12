@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: "Space";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Space.ttf");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Nunito.ttf");
+}
+
+@theme{
+  --color-primary: #4056F4;
+  --font-sans: "Nunito", sans-serif;
+  --font-terminal: "Space", serif;
+}
