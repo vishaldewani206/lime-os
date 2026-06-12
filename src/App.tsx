@@ -1,9 +1,7 @@
-import { useState } from 'react'
-import Navbar from './components/Navbar'
+import Navbar from './components/nav/Navbar'
 import Wallpaper from './components/Wallpaper'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <main>
